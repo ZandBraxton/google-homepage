@@ -35,7 +35,6 @@ html {
     display: block;
     padding: 1em;
     position: relative;
-    margin-left: ;
 }
 
 #signin {
@@ -130,4 +129,43 @@ input:focus {
 .submit:hover {
     box-shadow: 0px 1px 5px rgba(77, 76, 76, 0.541);
     cursor: pointer;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+
+.footer-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    opacity: 56%;
+    margin-left: -5px;
+    margin-right: 10px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    padding: 1em;
+    position: relative;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav-left {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
 }
