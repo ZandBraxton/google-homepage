@@ -11,6 +11,44 @@ html {
     box-sizing: inherit;
 }
 
+
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: center;
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    padding-top: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    padding: 1em;
+    position: relative;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+nav ul, li, a {
+    list-style: none;
+    color: inherit;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: -10px;
+}
+
+
 .search {
     display: flex;
     flex-flow: column;
